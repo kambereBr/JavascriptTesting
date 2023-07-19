@@ -72,8 +72,4 @@ describe('Calculator operations', () => {
         expect(() => calc.multiply()).toThrow();
     })
     /* End Test multiply method */
-
-
-
-
 })
