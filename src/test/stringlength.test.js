@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const stringLength = require('../functions')
+const stringLength = require('../stringlength')
 
 test('String "Hello!" returns character count 6', () => {
     expect(stringLength('Hello!')).toBe(6);
